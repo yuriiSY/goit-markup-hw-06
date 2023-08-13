@@ -28,6 +28,61 @@
                     <li class="header-contacts-item"><a class="header-contacts-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button class="menu-open-btn" data-menu-open type="button">
+                <svg class="menu-open-icon"  width="32" height="32">
+                    <use href="./images/icons.svg#icon-menu-hamburger"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-menu is-hidden" data-menu>
+            <div class="mob-menu-top">
+            <button class="mob-menu-close" data-menu-close type="button">
+                <svg class="mob-close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close-modal"></use>
+                </svg>
+            </button>
+            <nav class="mob-menu-navigation">
+                <ul class="mob-menu-list list">
+                    <li class="mob-menu-item"><a class="mob-menu-link current-mob link" href="./index.html">Studio</a></li>
+                    <li class="mob-menu-item"><a class="mob-menu-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="mob-menu-item"><a class="mob-menu-link link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            </div>
+            <address class="mob-address">
+                <a class="mob-nubmer-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <a class="mob-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <ul class="mob-social-list list">
+                    <li class="mob-social-item">
+                        <a href="" class="mob-social-link">
+                            <svg class="mob-item-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-social-item">
+                        <a href="" class="mob-social-link">
+                            <svg class="mob-item-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-social-item">
+                        <a href="" class="mob-social-link">
+                            <svg class="mob-item-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-social-item">
+                        <a href="" class="mob-social-link">
+                            <svg class="mob-item-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </address>
         </div>
     </header>
     <main>
@@ -84,9 +139,9 @@
             <div class="container">
                 <h2 class="works-title">What are we doing</h2>
                 <ul class="works-list list">
-                    <li class="works-list-item"><img src="./images/our-works-img-1.jpg" alt="Computer with web page" width="360" height="300"></li>
-                    <li class="works-list-item"><img src="./images/our-works-img-2.jpg" alt="Phone with chat" width="360" height="300"></li>
-                    <li class="works-list-item"><img src="./images/our-works-img-3.jpg" alt="Computer and phone with design" width="360" height="300"></li>
+                    <li class="works-list-item"><img srcset="./images/our-works-img-1.jpg 1x , ./images/our-works-img-1-2x.jpg 2x" src="./images/our-works-img-1.jpg" alt="Computer with web page" width="360" height="300"></li>
+                    <li class="works-list-item"><img srcset="./images/our-works-img-2.jpg 1x , ./images/our-works-img-2-2x.jpg 2x" src="./images/our-works-img-2.jpg" alt="Phone with chat" width="360" height="300"></li>
+                    <li class="works-list-item"><img srcset="./images/our-works-img-3.jpg 1x , ./images/our-works-img-3-2x.jpg 2x" src="./images/our-works-img-3.jpg" alt="Computer and phone with design" width="360" height="300"></li>
                 </ul>
             </div>
         </section>
@@ -95,7 +150,7 @@
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list list">
                     <li class="team-list-item">
-                        <img src="./images/our-team-img-1.jpg" alt="Mark Guerrero" width="264" height="260">
+                        <img srcset="./images/our-team-img-1.jpg 1x , ./images/our-team-img-1-2x.jpg 2x" src="./images/our-team-img-1.jpg" alt="Mark Guerrero" width="264" height="260">
                         <div class="team-item-details">
                             <h3 class="team-item-name">Mark Guerrero</h3>
                             <p class="team-item-occupation">Product Designer</p>
@@ -132,7 +187,7 @@
                         </div>
                     </li>
                     <li class="team-list-item">
-                        <img src="./images/our-team-img-2.jpg" alt="Tom Ford" width="264" height="260">
+                        <img srcset="./images/our-team-img-2.jpg 1x , ./images/our-team-img-2-2x.jpg 2x" src="./images/our-team-img-2.jpg" alt="Tom Ford" width="264" height="260">
                         <div class="team-item-details">
                             <h3 class="team-item-name">Tom Ford</h3>
                             <p class="team-item-occupation">Frontend Developer</p>
@@ -169,7 +224,7 @@
                         </div>
                     </li>
                     <li class="team-list-item">
-                        <img src="./images/our-team-img-3.jpg" alt="Camila Garcia" width="264" height="260">
+                        <img srcset="./images/our-team-img-3.jpg 1x , ./images/our-team-img-3-2x.jpg 2x" src="./images/our-team-img-3.jpg" alt="Camila Garcia" width="264" height="260">
                         <div class="team-item-details">
                             <h3 class="team-item-name">Camila Garcia</h3>
                             <p class="team-item-occupation">Marketing</p>
@@ -206,7 +261,7 @@
                         </div>
                     </li>
                     <li class="team-list-item">
-                        <img src="./images/our-team-img-4.jpg" alt="Daniel Wilson" width="264" height="260">
+                        <img srcset="./images/our-team-img-4.jpg 1x , ./images/our-team-img-4-2x.jpg 2x" src="./images/our-team-img-4.jpg" alt="Daniel Wilson" width="264" height="260">
                         <div class="team-item-details">
                             <h3 class="team-item-name">Daniel Wilson</h3>
                             <p class="team-item-occupation">UI Designer</p>
@@ -406,5 +461,6 @@
         </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
